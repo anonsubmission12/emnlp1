@@ -1,0 +1,1256 @@
+[
+     {
+    "conversation_id": 175,
+    "personality": "enthusiastic",
+    "income_range": "High",
+    "dominant_trait": "openness",
+    "big_five_scores": {
+      "openness": 1.0,
+      "conscientiousness": 0.5,
+      "extraversion": 0.9,
+      "agreeableness": 0.7,
+      "neuroticism": 0.3
+    },
+    "vehicle_category": "Mid-range",
+    "outcome": "Accept",
+    "recommended_provider": "HDFC ERGO General Insurance",
+    "turns": [
+      {
+        "turn_no": 1,
+        "speaker": "User",
+        "utterance": "Hello, I need to get insurance for my new vehicle. What do you recommend? [Image: https://images.hindustantimes.com/auto/img/2024/06/28/960x540/Mahindra_XUV700_1719561086900_1719561096610.jpg]",
+        "intent": "Initial",
+        "intent_vector": {
+          "information_seeking": 0.8,
+          "price_sensitivity": 0.5,
+          "trust_level": 0.5,
+          "decision_readiness": 0.30000000000000004,
+          "emotional_valence": 0.8
+        }
+      },
+      {
+        "turn_no": 2,
+        "speaker": "Agent",
+        "utterance": "Congrats on your new car—what a great feeling! I recommend HDFC ERGO General Insurance for your vehicle; they’re digital-first and backed by ERGO Group (Germany). Key benefits for your car: Insta Claim approvals within minutes, 24/7 support with a wide cashless garage network, and telematics-based discounts plus tailored cover for luxury/electric models. Would you like me to fetch a tailored quote and the best add-ons for your car?",
+        "strategy": "Credibility",
+        "strategy_vector": {
+          "credibility": 0.9,
+          "emotional_appeal": 0.3,
+          "logical_argument": 0.7,
+          "personalization": 0.4
+        }
+      },
+      {
+        "turn_no": 3,
+        "speaker": "User",
+        "utterance": "Fantastic—I'm thrilled with my new car and want the best, hassle-free cover with premium add-ons to keep it showroom-fresh. Could you fetch a tailored quote including zero depreciation, 24/7 roadside assistance, OEM parts cover and a telematics discount, and tell me the Premium ₹ estimate?",
+        "intent": "Request quote",
+        "intent_vector": {
+          "information_seeking": 0.7,
+          "price_sensitivity": 0.8,
+          "trust_level": 0.5,
+          "decision_readiness": 0.6,
+          "emotional_valence": 0.7
+        }
+      },
+      {
+        "turn_no": 4,
+        "speaker": "Agent",
+        "utterance": "Nice choice—zero depreciation, OEM-parts cover and 24/7 RSA really protect repair bills and resale value, and HDFC ERGO’s Insta Claim + wide cashless network makes claims hassle-free. For a typical new mid‑size car (IDV ~₹8–12 lakh), a comprehensive policy with those add‑ons usually runs about ₹18,000–₹35,000/year before telematics; safe‑driver telematics can cut that ~8–20% (roughly ₹15,000–₹32,000). Many customers pick this combo for peace of mind—what’s your car’s make, model and registration year so I can give an exact Premium ₹ quote?",
+        "strategy": "Default",
+        "strategy_vector": {
+          "credibility": 0.5,
+          "emotional_appeal": 0.4,
+          "logical_argument": 0.5,
+          "personalization": 0.5
+        }
+      },
+      {
+        "turn_no": 5,
+        "speaker": "User",
+        "utterance": "Amazing — I want top-tier protection to keep my new ride showroom-perfect with a depreciation waiver, genuine parts cover, round‑the‑clock roadside support and a usage‑based discount; can you do Premium ₹14,000 for that package?",
+        "intent": "Negotiate price",
+        "intent_vector": {
+          "information_seeking": 0.4,
+          "price_sensitivity": 0.9,
+          "trust_level": 0.4,
+          "decision_readiness": 0.7,
+          "emotional_valence": 0.6000000000000001
+        }
+      },
+      {
+        "turn_no": 6,
+        "speaker": "Agent",
+        "utterance": "Great choice—full top‑tier cover (zero‑depr + OEM parts + 24/7 RSA + telematics) usually costs above ₹18,000/year, so ₹14,000 is unlikely without trimming cover or raising voluntary excess. You can cut the premium by dropping optional add‑ons — for example, removing engine‑protection and consumables cover could bring it down to ₹16,200; alternatively a higher voluntary deductible or a better telematics score can push it closer to ₹14,000. Which add‑ons would you like to keep vs remove?",
+        "strategy": "Personal",
+        "strategy_vector": {
+          "credibility": 0.5,
+          "emotional_appeal": 0.6,
+          "logical_argument": 0.5,
+          "personalization": 0.9
+        }
+      },
+      {
+        "turn_no": 7,
+        "speaker": "User",
+        "utterance": "I'm thrilled—I'd like to keep the depreciation waiver, genuine parts cover and round‑the‑clock roadside support and aim for Premium ₹14,000 if possible. What voluntary excess would I need to choose to get Premium ₹14,000 while keeping those add‑ons?",
+        "intent": "Request additional info",
+        "intent_vector": {
+          "information_seeking": 0.9,
+          "price_sensitivity": 0.4,
+          "trust_level": 0.4,
+          "decision_readiness": 0.4,
+          "emotional_valence": 0.7
+        }
+      },
+      {
+        "turn_no": 8,
+        "speaker": "Agent",
+        "utterance": "Great choice — zero‑dep, OEM parts and 24/7 RSA give strong protection but add cost; to hit Premium ₹14,000 you’ll usually need a fairly high voluntary excess plus a top telematics discount. For a typical mid‑size car (IDV ~₹8–12 lakh) expect voluntary excess around ₹15,000–₹25,000 combined with a ~15–20% telematics cut to reach ₹14,000; otherwise you’d need to drop an add‑on or accept a higher premium. What’s your car’s make, model and IDV (or registration year) so I can give an exact voluntary‑excess number and final Premium ₹?",
+        "strategy": "Default",
+        "strategy_vector": {
+          "credibility": 0.5,
+          "emotional_appeal": 0.4,
+          "logical_argument": 0.5,
+          "personalization": 0.5
+        }
+      },
+      {
+        "turn_no": 9,
+        "speaker": "User",
+        "utterance": "Fantastic — I’m excited to lock this in: my car is a Hyundai Creta (2025), IDV ₹9,50,000 and I want Premium ₹14,000 while keeping the depreciation waiver, OEM parts cover and 24/7 roadside assistance. Could you tell me the exact voluntary excess I’d need to pick to reach Premium ₹14,000 for this car?",
+        "intent": "Request quote",
+        "intent_vector": {
+          "information_seeking": 0.7,
+          "price_sensitivity": 0.8,
+          "trust_level": 0.5,
+          "decision_readiness": 0.6,
+          "emotional_valence": 0.7
+        }
+      },
+      {
+        "turn_no": 10,
+        "speaker": "Agent",
+        "utterance": "Love it — for your 2025 Hyundai Creta (IDV ₹9,50,000) to keep zero‑dep, OEM parts and 24/7 RSA and reach Premium ₹14,000, you’ll generally need a voluntary excess of about ₹20,000 plus a strong telematics discount (roughly 15–20%). This estimate assumes no NCB and a standard city location—HDFC ERGO customers who score well on telematics commonly hit this band. Are you willing to install the telematics app and aim for a top safe‑driving score so I can lock the quote with voluntary excess ₹20,000?",
+        "strategy": "Emotional",
+        "strategy_vector": {
+          "credibility": 0.4,
+          "emotional_appeal": 0.9,
+          "logical_argument": 0.3,
+          "personalization": 0.7
+        }
+      },
+      {
+        "turn_no": 11,
+        "speaker": "User",
+        "utterance": "Fantastic — I want Premium ₹14,000 while keeping zero‑depreciation, genuine parts and 24/7 roadside support, and I’m happy to install telematics and accept a higher voluntary deductible of around ₹20,000. How long do I need to run the telematics app to secure the safe‑driving discount and lock in Premium ₹14,000?",
+        "intent": "Request additional info",
+        "intent_vector": {
+          "information_seeking": 0.9,
+          "price_sensitivity": 0.4,
+          "trust_level": 0.4,
+          "decision_readiness": 0.4,
+          "emotional_valence": 0.7
+        }
+      },
+      {
+        "turn_no": 12,
+        "speaker": "Agent",
+        "utterance": "Typically about 6–8 weeks of consistent safe driving (roughly 50–100 trips with no hard braking, overspeeding or phone distraction) is enough to earn the 15–20% telematics discount and reliably lock the premium at ₹14,000. Because you pushed for a better rate, I can offer a limited‑time special — ₹12,880 (was ₹14,000) — with zero‑depreciation, genuine parts and 24/7 roadside assistance all included. Aspire works with top insurers whose motor claim‑settlement ratios are among the industry’s best (≈98–99%) and we fast‑track cashless claims. Shall I lock the ₹12,880 policy for your Creta now?",
+        "strategy": "Credibility",
+        "strategy_vector": {
+          "credibility": 0.9,
+          "emotional_appeal": 0.3,
+          "logical_argument": 0.7,
+          "personalization": 0.4
+        }
+      },
+      {
+        "turn_no": 13,
+        "speaker": "User",
+        "utterance": "Yes — please lock the policy at Premium ₹12,880 for my 2025 Hyundai Creta (IDV ₹9,50,000) with zero‑depreciation, OEM parts and 24/7 roadside assistance; could you send the payment link to proceed?",
+        "intent": "Request quote",
+        "intent_vector": {
+          "information_seeking": 0.7,
+          "price_sensitivity": 0.8,
+          "trust_level": 0.5,
+          "decision_readiness": 0.6,
+          "emotional_valence": 0.7
+        }
+      },
+      {
+        "turn_no": 14,
+        "speaker": "Agent",
+        "utterance": "Perfect — I’ll lock your 2025 Hyundai Creta policy at Premium ₹12,880 (zero‑depreciation, OEM parts, 24/7 RSA) and reserve this limited‑time price; policy documents will be issued as soon as payment clears. Would you like the secure payment link sent to your WhatsApp or to your email? After payment the policy activates immediately and I’ll also send the invoice, e‑policy PDF and telematics install steps so you can start earning the safe‑driving discount.",
+        "strategy": "Logical",
+        "strategy_vector": {
+          "credibility": 0.6,
+          "emotional_appeal": 0.2,
+          "logical_argument": 0.9,
+          "personalization": 0.4
+        }
+      },
+      {
+        "turn_no": 15,
+        "speaker": "User",
+        "utterance": "Amazing — I’m ready to lock this for my Creta and will pay immediately. Would you do Premium ₹11,500 for the same zero‑dep, OEM parts cover and 24/7 roadside support if I complete payment now?",
+        "intent": "Negotiate price",
+        "intent_vector": {
+          "information_seeking": 0.4,
+          "price_sensitivity": 0.9,
+          "trust_level": 0.4,
+          "decision_readiness": 0.7,
+          "emotional_valence": 0.6000000000000001
+        }
+      },
+      {
+        "turn_no": 16,
+        "speaker": "Agent",
+        "utterance": "I really appreciate you being ready to pay immediately — that kind of quick action buys real peace of mind for your family. I can’t drop to ₹11,500 without removing zero‑depreciation or genuine‑parts cover, but as a one‑time concession I can lock the full package (zero‑dep, OEM parts, 24/7 RSA) at ₹12,250 if you pay now — it’s a limited offer so your cashless claims and fast support stay intact. Shall I lock it at ₹12,250 and send the payment link now?",
+        "strategy": "Emotional",
+        "strategy_vector": {
+          "credibility": 0.4,
+          "emotional_appeal": 0.9,
+          "logical_argument": 0.3,
+          "personalization": 0.7
+        }
+      },
+      {
+        "turn_no": 17,
+        "speaker": "User",
+        "utterance": "Yes, please lock Premium ₹12,250 for my 2025 Hyundai Creta — could you send the formal quote and secure payment link to my WhatsApp so I can pay immediately?",
+        "intent": "Request quote",
+        "intent_vector": {
+          "information_seeking": 0.7,
+          "price_sensitivity": 0.8,
+          "trust_level": 0.5,
+          "decision_readiness": 0.6,
+          "emotional_valence": 0.7
+        }
+      },
+      {
+        "turn_no": 18,
+        "speaker": "Agent",
+        "utterance": "Done — I’ve locked your 2025 Hyundai Creta policy at Premium ₹12,250 (zero‑depreciation, OEM parts, 24/7 roadside assistance) and reserved this limited‑time price while I prepare the formal quote. I’ll send the secure payment link, formal quote and invoice to WhatsApp; Aspire partners have an ≈98–99% motor claim‑settlement ratio and we fast‑track cashless claims so your cover activates as soon as payment clears. Which WhatsApp number should I send the payment link to?",
+        "strategy": "Credibility",
+        "strategy_vector": {
+          "credibility": 0.9,
+          "emotional_appeal": 0.3,
+          "logical_argument": 0.7,
+          "personalization": 0.4
+        }
+      },
+      {
+        "turn_no": 19,
+        "speaker": "User",
+        "utterance": "Awesome — please send the payment link and formal quote to WhatsApp at +91 98765 43210; I confirm Premium ₹12,250 for my 2025 Hyundai Creta. How soon will the safe-driving discount begin after I set up the telematics?",
+        "intent": "Request additional info",
+        "intent_vector": {
+          "information_seeking": 0.9,
+          "price_sensitivity": 0.4,
+          "trust_level": 0.4,
+          "decision_readiness": 0.4,
+          "emotional_valence": 0.7
+        }
+      },
+      {
+        "turn_no": 20,
+        "speaker": "Agent",
+        "utterance": "I appreciate you pushing for the best deal — since you’re ready to pay now, I can extend a one‑time final price of ₹11,270 (down from ₹12,250); this is a limited‑time concession. All features remain unchanged: zero‑depreciation, OEM parts, 24/7 roadside assistance, cashless network and e‑policy issuance. After the telematics is installed and active, you’ll typically see the first safe‑driving discount applied within about 30 days, with further reductions accruing monthly as your driving score improves.",
+        "strategy": "Logical",
+        "strategy_vector": {
+          "credibility": 0.6,
+          "emotional_appeal": 0.2,
+          "logical_argument": 0.9,
+          "personalization": 0.4
+        }
+      },
+      {
+        "turn_no": 21,
+        "speaker": "User",
+        "utterance": "Amazing — I’ll take Premium ₹11,270 for my 2025 Hyundai Creta; please send the official quote, invoice and payment URL to my WhatsApp at +91 98765 43210 so I can complete payment right away.  \nCould you please include a detailed premium breakdown and the telematics setup timeline in that quote?",
+        "intent": "Request quote",
+        "intent_vector": {
+          "information_seeking": 0.7,
+          "price_sensitivity": 0.8,
+          "trust_level": 0.5,
+          "decision_readiness": 0.6,
+          "emotional_valence": 0.7
+        }
+      },
+      {
+        "turn_no": 22,
+        "speaker": "Agent",
+        "utterance": "Thanks — I’ll send the official quote, invoice and secure payment URL to WhatsApp at +91 123456789 right away and will keep your one‑time premium locked at ₹11,270 while the link is valid. The quote will include a clear premium breakdown (IDV, own‑damage, third‑party, zero‑depreciation, OEM parts, RSA, taxes and applied discounts) and an itemised invoice. Telematics setup is scheduled within 24–48 hours after payment clears (most installs same day in metro areas), device activation is usually immediate, first safe‑driving discount shows up in ≈30 days and further reductions accrue monthly — I’ll include a step‑by‑step timeline in the quote.",
+        "strategy": "Personal",
+        "strategy_vector": {
+          "credibility": 0.5,
+          "emotional_appeal": 0.6,
+          "logical_argument": 0.5,
+          "personalization": 0.9
+        }
+      },
+      {
+        "turn_no": 23,
+        "speaker": "User",
+        "utterance": "I’m thrilled and ready to proceed — would you be able to confirm Premium ₹10,750 while keeping the same full zero‑dep protection, genuine OEM parts, round‑the‑clock roadside support and telematics perks? If yes, I’ll pay immediately and really appreciate you locking that price.",
+        "intent": "Negotiate price",
+        "intent_vector": {
+          "information_seeking": 0.4,
+          "price_sensitivity": 0.9,
+          "trust_level": 0.4,
+          "decision_readiness": 0.7,
+          "emotional_valence": 0.6000000000000001
+        }
+      },
+      {
+        "turn_no": 24,
+        "speaker": "Agent",
+        "utterance": "Thanks — I really appreciate you being ready to pay immediately; I’d already held a one‑time price of ₹11,270 for you. Dropping to ₹10,750 is another ₹520 (~4.6%) cut — to reach that without loss to the insurer I’d need you to accept a trade‑off (for example a ₹5,000 voluntary deductible or removal of zero‑depreciation/OEM cover); keeping all benefits intact, ₹11,270 is the lowest I can confirm. I can lock ₹11,270 and send the payment link to +91 98765 43210 right away — should I proceed?",
+        "strategy": "Logical",
+        "strategy_vector": {
+          "credibility": 0.6,
+          "emotional_appeal": 0.2,
+          "logical_argument": 0.9,
+          "personalization": 0.4
+        }
+      },
+      {
+        "turn_no": 25,
+        "speaker": "User",
+        "utterance": "Absolutely thrilled to protect my new Creta — Premium ₹11,270 sounds okay but I'm a little concerned about that ₹520 gap; would you be able to waive any admin fees or guarantee same‑day telematics installation if I pay right now?",
+        "intent": "Express Concern",
+        "intent_vector": {
+          "information_seeking": 0.6,
+          "price_sensitivity": 0.5,
+          "trust_level": 0.3,
+          "decision_readiness": 0.4,
+          "emotional_valence": 0.5
+        }
+      },
+      {
+        "turn_no": 26,
+        "speaker": "Agent",
+        "utterance": "I totally get the ₹520 concern — as a one‑time goodwill concession I’ll waive the admin fee and keep your locked premium at ₹11,270. I’ll also prioritise same‑day telematics installation for metro areas if you pay now; in non‑metro locations installs are usually completed within 24–48 hours due to vendor schedules, so I can’t promise absolute same‑day everywhere. Should I send the payment link to your WhatsApp +91 98765 43210 and lock this offer for 2 hours?",
+        "strategy": "Default",
+        "strategy_vector": {
+          "credibility": 0.5,
+          "emotional_appeal": 0.4,
+          "logical_argument": 0.5,
+          "personalization": 0.5
+        }
+      },
+      {
+        "turn_no": 27,
+        "speaker": "User",
+        "utterance": "Amazing — I’m happy to proceed with Premium ₹11,270 and really appreciate you waiving the admin fee. Could you please send the official quote, itemised invoice and payment link to my WhatsApp +91 98765 43210 and reserve this price for the next 2 hours?",
+        "intent": "Request quote",
+        "intent_vector": {
+          "information_seeking": 0.7,
+          "price_sensitivity": 0.8,
+          "trust_level": 0.5,
+          "decision_readiness": 0.6,
+          "emotional_valence": 0.7
+        }
+      },
+      {
+        "turn_no": 28,
+        "speaker": "Agent",
+        "utterance": "Perfect — I’ll send the official quote, itemised invoice and secure payment link to WhatsApp +91 98765 43210 right now and lock your one‑time premium at ₹11,270 for the next 2 hours. I’ve waived the admin fee and will prioritise same‑day telematics installation in metro areas (24–48 hours elsewhere); the quote will include a clear premium breakdown and an activation timeline. Once payment clears I’ll confirm policy activation so you can drive your Creta with full zero‑dep, OEM parts and 24/7 RSA — peace of mind for you and your family.",
+        "strategy": "Emotional",
+        "strategy_vector": {
+          "credibility": 0.4,
+          "emotional_appeal": 0.9,
+          "logical_argument": 0.3,
+          "personalization": 0.7
+        }
+      },
+      {
+        "turn_no": 29,
+        "speaker": "User",
+        "utterance": "Fantastic — I accept Premium ₹11,270; please send the payment link and official quote to my WhatsApp +91 98765 43210. What's the single next step I should expect after I complete payment?",
+        "intent": "Confirm Plan",
+        "intent_vector": {
+          "information_seeking": 0.3,
+          "price_sensitivity": 0.5,
+          "trust_level": 0.8,
+          "decision_readiness": 1.0,
+          "emotional_valence": 1.0
+        }
+      },
+      {
+        "turn_no": 30,
+        "speaker": "Agent",
+        "utterance": "Excellent choice! I'll send you the policy documents right away. Welcome to our family!",
+        "strategy": "Default",
+        "strategy_vector": {
+          "credibility": 0.5,
+          "emotional_appeal": 0.4,
+          "logical_argument": 0.5,
+          "personalization": 0.5
+        }
+      }
+    ],
+    "year_summary": "User sought top-tier, hassle-free cover for a 2025 Hyundai Creta, requesting zero-depreciation, OEM parts cover, 24/7 roadside assistance and a telematics discount. Agent recommended HDFC ERGO, suggested ~₹20,000 voluntary excess and telematics (6–8 weeks for max discount), then negotiated a one-time locked premium of ₹11,270. Admin fee waived, telematics install prioritized (same-day in metros/24–48h elsewhere), and payment link/quote sent to WhatsApp +91 98765 43210.",
+    "timestamp": "2015-11-30T20:22:57",
+    "year": 2015,
+    "persona_id": "P_018"
+  },
+  {
+    "conversation_id": 176,
+    "personality": "enthusiastic",
+    "income_range": "High",
+    "dominant_trait": "openness",
+    "big_five_scores": {
+      "openness": 1.0,
+      "conscientiousness": 0.5,
+      "extraversion": 0.9,
+      "agreeableness": 0.7,
+      "neuroticism": 0.3
+    },
+    "vehicle_category": "Economy",
+    "outcome": "Reject",
+    "recommended_provider": "Bharti AXA General Insurance (now merged with ICICI Lombard)",
+    "turns": [
+      {
+        "turn_no": 1,
+        "speaker": "User",
+        "utterance": "Hey, I need to sort out insurance for my new car. Can you help? [Image: https://www.evoindia.com/h-upload/uid/xyVrerEaMb3sEEusWswwL99usj8nwtCr.jpg]",
+        "intent": "Initial",
+        "intent_vector": {
+          "information_seeking": 0.8,
+          "price_sensitivity": 0.5,
+          "trust_level": 0.5,
+          "decision_readiness": 0.30000000000000004,
+          "emotional_valence": 0.8
+        }
+      },
+      {
+        "turn_no": 2,
+        "speaker": "Agent",
+        "utterance": "Congrats on your new car — I’d recommend Bharti AXA (now merged with ICICI Lombard) for your motor cover. They bring a trusted legacy with easy, fast claim processing, access to ICICI Lombard’s wide cashless garage network, and comprehensive options ideal for new cars like zero-depreciation and OEM-parts coverage. Quick question: what’s the car’s make and model?",
+        "strategy": "Credibility",
+        "strategy_vector": {
+          "credibility": 0.9,
+          "emotional_appeal": 0.3,
+          "logical_argument": 0.7,
+          "personalization": 0.4
+        }
+      },
+      {
+        "turn_no": 3,
+        "speaker": "User",
+        "utterance": "I’m thrilled — I just bought a 2026 Audi Q5 45 TFSI (Petrol), Delhi registration, and I want top-tier, hassle-free comprehensive cover with zero depreciation, OEM parts and 24/7 roadside assistance. Could you please send me a detailed quote with the Premium estimate and available add-ons?",
+        "intent": "Request quote",
+        "intent_vector": {
+          "information_seeking": 0.7,
+          "price_sensitivity": 0.8,
+          "trust_level": 0.5,
+          "decision_readiness": 0.6,
+          "emotional_valence": 0.7
+        }
+      },
+      {
+        "turn_no": 4,
+        "speaker": "Agent",
+        "utterance": "Congrats — great choice of car. For a 2026 Audi Q5 (Delhi) with comprehensive cover, zero-dep, OEM parts and 24/7 RSA, expect an annual premium in the ballpark of ₹1,60,000–₹2,00,000 (rough breakdown: base OD+TP ~₹1,20,000–₹1,50,000; zero-dep ₹12,000–₹25,000; OEM parts ₹8,000–₹20,000; RSA ₹800–₹2,000). I’d recommend ICICI Lombard (Bharti AXA legacy) — many premium-SUV owners pick them for fast claims and wide cashless garage access. Could you confirm the car’s ex-showroom price or preferred IDV so I can prepare an exact quote?",
+        "strategy": "Default",
+        "strategy_vector": {
+          "credibility": 0.5,
+          "emotional_appeal": 0.4,
+          "logical_argument": 0.5,
+          "personalization": 0.5
+        }
+      },
+      {
+        "turn_no": 5,
+        "speaker": "User",
+        "utterance": "Awesome — I want top-tier protection for my new Q5; could you provide a detailed breakdown of coverage (limits, deductibles, exclusions) and the approximate Premium ₹ for the full comprehensive policy including a depreciation‑waiver, genuine OEM parts cover and round‑the‑clock roadside assistance, plus any recommended add‑ons?",
+        "intent": "Ask Coverage Details",
+        "intent_vector": {
+          "information_seeking": 0.9,
+          "price_sensitivity": 0.4,
+          "trust_level": 0.5,
+          "decision_readiness": 0.4,
+          "emotional_valence": 0.7
+        }
+      },
+      {
+        "turn_no": 6,
+        "speaker": "Agent",
+        "utterance": "Nice choice — here’s a concise, logical breakdown for a 2026 Audi Q5 (Delhi). A full comprehensive policy with zero‑depreciation, OEM parts and 24/7 RSA typically runs around ₹1,60,000–₹2,00,000/year (rough split: base OD+TP ₹1,20,000–₹1,50,000; zero‑dep ₹15,000–₹30,000; OEM parts ₹10,000–₹25,000; RSA ~₹800–₹2,000). Coverage notes: third‑party liability per law (BI unlimited), voluntary deductible usually ₹5,000–₹25,000 (higher deductible cuts premium ~8–15%), common exclusions include wear & tear, mechanical/electrical failure, tyres/consumables (unless damaged in an accident), driving under influence and unauthorised use. Recommended add‑ons: Return‑to‑Invoice (saves big on total loss), Engine & Gearbox Protect, Key Replacement and higher PA limits — shall I prepare an exact premium quote using your preferred IDV or the car’s ex‑showroom price?",
+        "strategy": "Logical",
+        "strategy_vector": {
+          "credibility": 0.6,
+          "emotional_appeal": 0.2,
+          "logical_argument": 0.9,
+          "personalization": 0.4
+        }
+      },
+      {
+        "turn_no": 7,
+        "speaker": "User",
+        "utterance": "I’m absolutely buzzing — please give me the top‑tier, hassle‑free cover for my Q5 with depreciation‑waiver, genuine OEM parts, 24/7 roadside assistance plus Return‑to‑Invoice and Engine & Gearbox protect. Could you prepare a detailed quote with the full Premium, deductibles, limits, exclusions and add‑on prices using the car’s ex‑showroom price of ₹70,00,000?",
+        "intent": "Request quote",
+        "intent_vector": {
+          "information_seeking": 0.7,
+          "price_sensitivity": 0.8,
+          "trust_level": 0.5,
+          "decision_readiness": 0.6,
+          "emotional_valence": 0.7
+        }
+      },
+      {
+        "turn_no": 8,
+        "speaker": "Agent",
+        "utterance": "Agent here — for your 2026 Audi Q5 (Delhi) with ex‑showroom/IDV ₹70,00,000, estimated annual premium: ₹1,92,500 (breakdown: base OD+TP ₹1,25,000; Zero‑Dep ₹20,000; OEM parts ₹15,000; Return‑to‑Invoice ₹18,000; Engine & Gearbox Protect ₹12,000; 24/7 RSA ₹1,500). Voluntary deductible assumed ₹5,000 (raise to ₹25,000 cuts premium ~8–12%); third‑party liability as per law (BI unlimited); Return‑to‑Invoice pays invoice–IDV gap on total loss; Engine & Gearbox covers internal mechanical/gearbox failures per policy; common exclusions: wear & tear, routine servicing, tyres/consumables (unless damaged in an accident), driving under influence and unauthorised use. I recommend ICICI Lombard (Bharti AXA legacy) for fast claims and wide cashless network — shall I prepare a formal quote and policy document for purchase with IDV ₹70,00,000 and voluntary deductible ₹5,000?",
+        "strategy": "Personal",
+        "strategy_vector": {
+          "credibility": 0.5,
+          "emotional_appeal": 0.6,
+          "logical_argument": 0.5,
+          "personalization": 0.9
+        }
+      },
+      {
+        "turn_no": 9,
+        "speaker": "User",
+        "utterance": "Fantastic — I’m happy to go ahead with the top‑tier, hassle‑free cover; Premium ₹1,92,500 is fine. Could you please share a section‑wise breakdown of cover limits, the exact deductibles, precise exclusions and the individual prices for each add‑on (depreciation waiver, genuine parts cover, invoice protection, engine & gearbox cover and round‑the‑clock roadside assistance) so I can review before you prepare the final policy?",
+        "intent": "Ask Coverage Details",
+        "intent_vector": {
+          "information_seeking": 0.9,
+          "price_sensitivity": 0.4,
+          "trust_level": 0.5,
+          "decision_readiness": 0.4,
+          "emotional_valence": 0.7
+        }
+      },
+      {
+        "turn_no": 10,
+        "speaker": "Agent",
+        "utterance": "Great — line‑by‑line pricing for your Q5 (IDV ₹70,00,000): Base OD+TP ₹1,25,000; Zero‑Dep (depreciation waiver) ₹20,000; Genuine OEM parts cover ₹15,000; Return‑to‑Invoice ₹18,000; Engine & Gearbox protect ₹12,000; 24/7 RSA ₹1,500 — Total ₹1,92,500/year.  \nCover & exact deductibles: Third‑party liability—bodily injury as per law (unlimited); Own‑Damage cover up to IDV ₹70,00,000; voluntary deductible ₹5,000 per OD claim; Engine & Gearbox add‑on carries a ₹2,500 per‑claim deductible; Zero‑Dep waives parts depreciation on approved accidental claims and Return‑to‑Invoice pays invoice minus salvage on total loss/theft.  \nKey exclusions (be aware): normal wear & tear, routine servicing, mechanical/electrical breakdowns not caused by an insured peril, tyres/batteries/consumables (unless damaged in an accident), driving under influence or unauthorised use, racing/intentional damage — I recommend ICICI Lombard (Bharti AXA legacy) for fast claims and wide cashless network; shall I prepare the final policy document and payment link now?",
+        "strategy": "Default",
+        "strategy_vector": {
+          "credibility": 0.5,
+          "emotional_appeal": 0.4,
+          "logical_argument": 0.5,
+          "personalization": 0.5
+        }
+      },
+      {
+        "turn_no": 11,
+        "speaker": "User",
+        "utterance": "Fantastic — I’m happy to go ahead with Premium ₹1,92,500 and all the top‑tier add‑ons, but I’m a little concerned about how the excesses (voluntary excess ₹5,000; engine/gearbox excess ₹2,500) and exclusions might affect a real claim. Is there a waiting period before the Engine & Gearbox Protect becomes claimable?",
+        "intent": "Express Concern",
+        "intent_vector": {
+          "information_seeking": 0.6,
+          "price_sensitivity": 0.5,
+          "trust_level": 0.3,
+          "decision_readiness": 0.4,
+          "emotional_valence": 0.5
+        }
+      },
+      {
+        "turn_no": 12,
+        "speaker": "Agent",
+        "utterance": "Totally valid concern — typically Engine & Gearbox Protect carries a waiting period of about 30 days from policy start (some insurers allow 15–30 days), and it only covers sudden internal mechanical/gearbox failures from an insured peril — exclusions include pre‑existing faults, wear & tear, poor maintenance, oil leaks, racing or DUI. About excesses: your voluntary excess of ₹5,000 applies to the OD claim and the add‑on’s ₹2,500 per‑claim excess is usually applied on top (so you could be liable up to ~₹7,500), though exact stacking rules can vary by insurer. Shall I confirm the precise waiting period and deductible stacking with ICICI Lombard/Bharti AXA before finalising?",
+        "strategy": "Personal",
+        "strategy_vector": {
+          "credibility": 0.5,
+          "emotional_appeal": 0.6,
+          "logical_argument": 0.5,
+          "personalization": 0.9
+        }
+      },
+      {
+        "turn_no": 13,
+        "speaker": "User",
+        "utterance": "I’m thrilled with the cover — can you negotiate with ICICI Lombard to bring Premium ₹1,75,000 while keeping IDV ₹70,00,000 and all add‑ons with the ₹5,000 voluntary and ₹2,500 engine deductibles?",
+        "intent": "Negotiate price",
+        "intent_vector": {
+          "information_seeking": 0.4,
+          "price_sensitivity": 0.9,
+          "trust_level": 0.4,
+          "decision_readiness": 0.7,
+          "emotional_valence": 0.6000000000000001
+        }
+      },
+      {
+        "turn_no": 14,
+        "speaker": "Agent",
+        "utterance": "Totally get wanting a lower premium — I’ll explain the price before I push for a cut. The extra over a basic cover mainly pays for these add‑ons: Zero‑Depreciation (₹20,000) — can save you lakhs on big parts claims; Genuine OEM parts cover (₹15,000) for assured manufacturer parts and smoother cashless repairs; Return‑to‑Invoice (₹18,000) which covers the invoice–IDV gap on total loss (often ₹1–3 lakh); and Engine & Gearbox Protect (₹12,000) that shields you from very costly internal repairs (typically ₹50,000+). Aspire negotiates regularly with ICICI Lombard (Bharti AXA legacy), who have a top motor claim network and strong settlement record — shall I approach them now to request ₹1,75,000 while keeping everything identical?",
+        "strategy": "Credibility",
+        "strategy_vector": {
+          "credibility": 0.9,
+          "emotional_appeal": 0.3,
+          "logical_argument": 0.7,
+          "personalization": 0.4
+        }
+      },
+      {
+        "turn_no": 15,
+        "speaker": "User",
+        "utterance": "I’m thrilled—please negotiate for Premium ₹1,75,000—but I’m a bit worried about my real out‑of‑pocket if something happens. If you get them down to Premium ₹1,75,000, can you please confirm whether the voluntary ₹5,000 and the engine add‑on ₹2,500 will be applied together so my max per‑claim cost stays around ₹7,500?",
+        "intent": "Express Concern",
+        "intent_vector": {
+          "information_seeking": 0.6,
+          "price_sensitivity": 0.5,
+          "trust_level": 0.3,
+          "decision_readiness": 0.4,
+          "emotional_valence": 0.5
+        }
+      },
+      {
+        "turn_no": 16,
+        "speaker": "Agent",
+        "utterance": "Great question — typically the voluntary excess of ₹5,000 and the Engine & Gearbox add‑on excess of ₹2,500 do stack on an OD claim, so your likely out‑of‑pocket is about ₹7,500, but I’ll confirm the exact stacking rule with ICICI Lombard while negotiating the ₹1,75,000 premium. If you want to lower premium faster, dropping Roadside Assistance (₹1,500) plus Genuine OEM parts cover (₹15,000) would shave ≈₹16,500 and bring the premium close to ₹1,76,000 (skipping Return‑to‑Invoice would save ≈₹18,000 instead). Shall I keep Engine Protect and Zero‑Dep and remove RSA + OEM, or would you prefer a different combo?",
+        "strategy": "Personal",
+        "strategy_vector": {
+          "credibility": 0.5,
+          "emotional_appeal": 0.6,
+          "logical_argument": 0.5,
+          "personalization": 0.9
+        }
+      },
+      {
+        "turn_no": 17,
+        "speaker": "User",
+        "utterance": "Fantastic — I’m all in and want Premium ₹1,75,000 with IDV ₹70,00,000 and every add‑on kept for peace of mind on my new ride. Could you please confirm with ICICI Lombard whether my ₹5,000 voluntary excess and the ₹2,500 engine add‑on excess will be applied together so my max out‑of‑pocket per claim stays around ₹7,500, and negotiate to secure Premium ₹1,75,000 on those exact terms?",
+        "intent": "Request additional info",
+        "intent_vector": {
+          "information_seeking": 0.9,
+          "price_sensitivity": 0.4,
+          "trust_level": 0.4,
+          "decision_readiness": 0.4,
+          "emotional_valence": 0.7
+        }
+      },
+      {
+        "turn_no": 18,
+        "speaker": "Agent",
+        "utterance": "Love your persistence — great call sticking to full peace‑of‑mind cover. I can secure a limited‑time concession to reduce your voluntary excess to ₹4,600 (down from ₹5,000) while keeping IDV ₹70,00,000 and every add‑on. Typically that reduced voluntary excess will stack with the ₹2,500 Engine & Gearbox add‑on, so your likely max out‑of‑pocket per OD claim would be about ₹7,100; I’ll now negotiate with ICICI Lombard to lock the premium at ₹1,75,000 on those exact terms and confirm the deductible stacking in writing.",
+        "strategy": "Emotional",
+        "strategy_vector": {
+          "credibility": 0.4,
+          "emotional_appeal": 0.9,
+          "logical_argument": 0.3,
+          "personalization": 0.7
+        }
+      },
+      {
+        "turn_no": 19,
+        "speaker": "User",
+        "utterance": "Love it — I’m happy to proceed with Premium ₹1,75,000, IDV ₹70,00,000 and every add‑on for peace of mind. Could you please try to push the premium down to Premium ₹1,70,000 while keeping the voluntary excess at ₹4,600, IDV ₹70,00,000 and all add‑ons intact?",
+        "intent": "Negotiate price",
+        "intent_vector": {
+          "information_seeking": 0.4,
+          "price_sensitivity": 0.9,
+          "trust_level": 0.4,
+          "decision_readiness": 0.7,
+          "emotional_valence": 0.6000000000000001
+        }
+      },
+      {
+        "turn_no": 20,
+        "speaker": "Agent",
+        "utterance": "Got it — I’ll press ICICI Lombard to bring the premium down to ₹1,70,000 while keeping voluntary excess at ₹4,600, IDV ₹70,00,000 and all add‑ons intact. Aspire’s strong standing and regular negotiations with ICICI Lombard (they have ~98% motor claim settlement and an 8,000+ garage network) give us a solid shot, though such a deep cut may be a limited‑time concession. Shall I go ahead and negotiate now?",
+        "strategy": "Credibility",
+        "strategy_vector": {
+          "credibility": 0.9,
+          "emotional_appeal": 0.3,
+          "logical_argument": 0.7,
+          "personalization": 0.4
+        }
+      },
+      {
+        "turn_no": 21,
+        "speaker": "User",
+        "utterance": "Amazing — please proceed to negotiate for Premium ₹1,70,000 while keeping voluntary excess ₹4,600, IDV ₹70,00,000 and every add‑on intact, I’m really excited to get this wrapped up. Could you please secure written confirmation from ICICI Lombard once they agree?",
+        "intent": "Request quote",
+        "intent_vector": {
+          "information_seeking": 0.7,
+          "price_sensitivity": 0.8,
+          "trust_level": 0.5,
+          "decision_readiness": 0.6,
+          "emotional_valence": 0.7
+        }
+      },
+      {
+        "turn_no": 22,
+        "speaker": "Agent",
+        "utterance": "Love your persistence — I’ll push ICICI Lombard right away and get their written confirmation. I’ve secured a special, limited‑time final concession to bring your premium down to ₹156,400 (from ₹1,70,000) while keeping voluntary excess ₹4,600, IDV ₹70,00,000 and every add‑on intact — all features remain included. Shall I accept and lock this ₹156,400 offer as soon as they confirm in writing?",
+        "strategy": "Personal",
+        "strategy_vector": {
+          "credibility": 0.5,
+          "emotional_appeal": 0.6,
+          "logical_argument": 0.5,
+          "personalization": 0.9
+        }
+      },
+      {
+        "turn_no": 23,
+        "speaker": "User",
+        "utterance": "This is fantastic — I’m really excited to get everything wrapped up and have top‑tier peace of mind for my new car! Can you secure Premium ₹150,000 while keeping voluntary excess ₹4,600, IDV ₹70,00,000 and all add‑ons included, and get that confirmation in writing?",
+        "intent": "Negotiate price",
+        "intent_vector": {
+          "information_seeking": 0.4,
+          "price_sensitivity": 0.9,
+          "trust_level": 0.4,
+          "decision_readiness": 0.7,
+          "emotional_valence": 0.6000000000000001
+        }
+      },
+      {
+        "turn_no": 24,
+        "speaker": "Agent",
+        "utterance": "Love this — I’ll push ICICI Lombard now to secure Premium ₹150,000 with voluntary excess ₹4,600, IDV ₹70,00,000 and every add‑on, and get their confirmation in writing so your family can drive with real peace of mind. Quick, honest note: their best concession so far is ₹156,400, so ₹150,000 is tight, but Aspire’s strong relationship (≈98% motor claim settlement and 8,000+ garages) gives us a solid shot and I’ll press hard. If they can’t hit ₹150,000, should I lock the ₹156,400 written offer immediately to avoid losing this limited‑time concession?",
+        "strategy": "Emotional",
+        "strategy_vector": {
+          "credibility": 0.4,
+          "emotional_appeal": 0.9,
+          "logical_argument": 0.3,
+          "personalization": 0.7
+        }
+      },
+      {
+        "turn_no": 25,
+        "speaker": "User",
+        "utterance": "I'm excited but a bit anxious they'll retract the discount—please push ICICI Lombard hard for Premium ₹150,000, and if they can't reach that, should you secure the written offer for Premium ₹156,400 immediately so we don't lose it?",
+        "intent": "Express Concern",
+        "intent_vector": {
+          "information_seeking": 0.6,
+          "price_sensitivity": 0.5,
+          "trust_level": 0.3,
+          "decision_readiness": 0.4,
+          "emotional_valence": 0.5
+        }
+      },
+      {
+        "turn_no": 26,
+        "speaker": "Agent",
+        "utterance": "I totally get the anxiety—I'll push ICICI Lombard hard for Premium ₹150,000 as requested. If they can’t hit that, I can lock a special limited‑time final concession at ₹138,000 (down from ₹150,000) while keeping voluntary excess ₹4,600, IDV ₹70,00,000 and every add‑on intact—Aspire’s strong standing (≈98% motor claim settlement, 8,000+ network garages) makes this a reliable finish. Shall I secure and lock the ₹138,000 written offer if ICICI can’t reach ₹150,000?",
+        "strategy": "Credibility",
+        "strategy_vector": {
+          "credibility": 0.9,
+          "emotional_appeal": 0.3,
+          "logical_argument": 0.7,
+          "personalization": 0.4
+        }
+      },
+      {
+        "turn_no": 27,
+        "speaker": "User",
+        "utterance": "Fantastic — I'm thrilled and would love to aim for Premium ₹150,000 if it truly gives full premium protection for my new car. For Premium ₹150,000, could you confirm exactly which coverages and limits are included—zero depreciation, engine/battery & electrical protection, OEM parts replacement, key/theft cover, nationwide roadside assistance, personal accident limit, how the ₹4,600 voluntary excess will apply, NCB protection, and typical claim turnaround times?",
+        "intent": "Ask Coverage Details",
+        "intent_vector": {
+          "information_seeking": 0.9,
+          "price_sensitivity": 0.4,
+          "trust_level": 0.5,
+          "decision_readiness": 0.4,
+          "emotional_valence": 0.7
+        }
+      },
+      {
+        "turn_no": 28,
+        "speaker": "Agent",
+        "utterance": "Great — here’s what the ₹150,000 top‑tier package includes (pending ICICI Lombard’s written confirmation): zero depreciation for eligible parts; engine, battery & electrical protection for accidental/peril damage (excludes wear & tear); OEM/genuine parts replacement; key loss/theft and vehicle theft cover. It also includes nationwide roadside assistance (towing, on‑spot minor repairs, fuel/battery help, locksmith), NCB protection per policy terms (typically protects one at‑fault claim) and a standard personal accident cover (typical limit ₹15,00,000 — I will confirm exact limit in writing). Your ₹4,600 voluntary excess is deducted from each own‑damage claim in addition to any compulsory excess (not applicable to third‑party liability or personal accident); cashless repairs at network garages commonly take 3–10 working days and reimbursements 7–21 days depending on docs — Aspire/ICICI’s motor claim settlement is ~98%, which is why many customers pick this pack. Shall I now press ICICI to confirm and lock the ₹150,000 offer in writing?",
+        "strategy": "Personal",
+        "strategy_vector": {
+          "credibility": 0.5,
+          "emotional_appeal": 0.6,
+          "logical_argument": 0.5,
+          "personalization": 0.9
+        }
+      },
+      {
+        "turn_no": 29,
+        "speaker": "User",
+        "utterance": "I'm thrilled with the coverage, but Premium ₹150,000 is beyond my budget—please lock the special written offer at Premium ₹138,000 and proceed.",
+        "intent": "Reject Offer",
+        "intent_vector": {
+          "information_seeking": 0.2,
+          "price_sensitivity": 0.8,
+          "trust_level": 0.3,
+          "decision_readiness": 1.0,
+          "emotional_valence": 0.5
+        }
+      },
+      {
+        "turn_no": 30,
+        "speaker": "Agent",
+        "utterance": "That's okay. Take your time to decide. Our offer stands when you need us.",
+        "strategy": "Default",
+        "strategy_vector": {
+          "credibility": 0.5,
+          "emotional_appeal": 0.4,
+          "logical_argument": 0.5,
+          "personalization": 0.5
+        }
+      }
+    ],
+    "year_summary": "User wanted top‑tier comprehensive cover for a 2026 Audi Q5 (IDV ₹70,00,000) with zero‑depreciation, genuine OEM parts, 24/7 roadside assistance, Return‑to‑Invoice, Engine & Gearbox Protect, key/theft cover and NCB protection. Main concerns: deductibles stacking (voluntary ₹5,000 → negotiated ₹4,600; engine add‑on ₹2,500), waiting period for engine cover and exclusions. Premium moved from ₹1,92,500 → negotiations to ₹1,75,000/₹1,70,000, special offers ₹156,400 and proposed ₹138,000; user asked to lock ₹138,000 but agent left the offer open pending confirmation.",
+    "timestamp": "2016-02-21T09:14:08",
+    "year": 2016,
+    "persona_id": "P_018"
+  },
+  {
+    "conversation_id": 177,
+    "personality": "enthusiastic",
+    "income_range": "High",
+    "dominant_trait": "openness",
+    "big_five_scores": {
+      "openness": 1.0,
+      "conscientiousness": 0.5,
+      "extraversion": 0.9,
+      "agreeableness": 0.7,
+      "neuroticism": 0.3
+    },
+    "vehicle_category": "Mid-range",
+    "outcome": "Accept",
+    "recommended_provider": "Cholamandalam MS General Insurance",
+    "turns": [
+      {
+        "turn_no": 1,
+        "speaker": "User",
+        "utterance": "Hello, I need to get insurance for my new vehicle. What do you recommend? [Image: https://cdn-s3.autocarindia.com/legacy/cdni/ExtraImages/20210915010118_MG_Astor_front_1.jpg?w=728&q=75]",
+        "intent": "Initial",
+        "intent_vector": {
+          "information_seeking": 0.8,
+          "price_sensitivity": 0.5,
+          "trust_level": 0.5,
+          "decision_readiness": 0.30000000000000004,
+          "emotional_valence": 0.8
+        }
+      },
+      {
+        "turn_no": 2,
+        "speaker": "Agent",
+        "utterance": "Congrats on your new car — that’s exciting! I recommend Cholamandalam MS General Insurance; they’re trusted by private owners and fleets, offer quick settlements and 24/7 support with a wide garage network, plus add-ons perfect for a new vehicle like zero-depreciation, return-to-invoice (RTI) and roadside assistance. I’m agent — shall I pull a tailored quote with zero-dep and RTI options for your car?",
+        "strategy": "Credibility",
+        "strategy_vector": {
+          "credibility": 0.9,
+          "emotional_appeal": 0.3,
+          "logical_argument": 0.7,
+          "personalization": 0.4
+        }
+      },
+      {
+        "turn_no": 3,
+        "speaker": "User",
+        "utterance": "Awesome — I want top-tier, hassle-free protection for my new baby. Could you please detail exactly what zero-dep, RTI and roadside assistance cover and tell me the extra Premium (₹) for each add-on?",
+        "intent": "Ask Coverage Details",
+        "intent_vector": {
+          "information_seeking": 0.9,
+          "price_sensitivity": 0.4,
+          "trust_level": 0.5,
+          "decision_readiness": 0.4,
+          "emotional_valence": 0.7
+        }
+      },
+      {
+        "turn_no": 4,
+        "speaker": "Agent",
+        "utterance": "Nice — many new Creta owners pick these with Cholamandalam MS for true peace of mind; here’s what they cover and typical extra annual premiums. Zero-depreciation: insurer pays full cost of replaced parts without depreciation — typical extra premium ₹3,000–₹8,000/year (varies by IDV & trim). Return-to-invoice (RTI): if total loss/theft, insurer pays invoice/OTR value instead of depreciated IDV — typical extra premium ₹1,500–₹5,000/year. Roadside assistance: 24/7 towing, on‑spot repairs, battery jump, tyre change, fuel delivery — usually ₹300–₹900/year or bundled in some plans; shall I pull exact quotes for your 2025 Creta?",
+        "strategy": "Emotional",
+        "strategy_vector": {
+          "credibility": 0.4,
+          "emotional_appeal": 0.9,
+          "logical_argument": 0.3,
+          "personalization": 0.7
+        }
+      },
+      {
+        "turn_no": 5,
+        "speaker": "User",
+        "utterance": "Fantastic — I want top-tier, no-fuss cover for my new Creta and am happy to pay for seamless claims and a wide garage network. Could you pull exact annual premiums in ₹ for my 2025 Creta showing Base Premium, zero-dep add-on Premium, RTI (invoice-cover) Premium, roadside-help Premium and the final total Premium, plus the standard deductible and preferred garage list?",
+        "intent": "Request additional info",
+        "intent_vector": {
+          "information_seeking": 0.9,
+          "price_sensitivity": 0.4,
+          "trust_level": 0.4,
+          "decision_readiness": 0.4,
+          "emotional_valence": 0.7
+        }
+      },
+      {
+        "turn_no": 6,
+        "speaker": "Agent",
+        "utterance": "I can pull exact insurer quotes — quick estimate first: base comprehensive premium for a 2025 Hyundai Creta typically runs ₹18,000–₹30,000/year; zero‑depreciation adds about ₹3,000–₹8,000, RTI adds ₹1,500–₹5,000, and roadside-help ₹300–₹900, so total usually lands around ₹22,800–₹44,900 depending on IDV and cover choices. Standard compulsory deductible is usually ₹1,000 (you can choose a higher voluntary deductible to lower premium), and Cholamandalam’s preferred garages are city-specific — most owners use nearby authorised Hyundai/Chola-network workshops for cashless claims. Please confirm your Creta’s exact variant (e.g., SX(O) petrol) and the RTO/registration city so I can pull exact annual premiums and the precise preferred-garage list.",
+        "strategy": "Logical",
+        "strategy_vector": {
+          "credibility": 0.6,
+          "emotional_appeal": 0.2,
+          "logical_argument": 0.9,
+          "personalization": 0.4
+        }
+      },
+      {
+        "turn_no": 7,
+        "speaker": "User",
+        "utterance": "I’m super excited but a little worried the quoted range is quite wide — I’d hate any surprises when I claim, so I’d prefer a firm number to plan for. Could you pull an exact annual Premium (Premium ₹X) for my 2025 Creta SX(O) petrol registered in Mumbai including no‑depreciation cover, RTI (invoice reimbursement) and 24/7 roadside help?",
+        "intent": "Express Concern",
+        "intent_vector": {
+          "information_seeking": 0.6,
+          "price_sensitivity": 0.5,
+          "trust_level": 0.3,
+          "decision_readiness": 0.4,
+          "emotional_valence": 0.5
+        }
+      },
+      {
+        "turn_no": 8,
+        "speaker": "Agent",
+        "utterance": "I get the worry — here’s the firm annual premium I pulled from Cholamandalam MS for your 2025 Hyundai Creta SX(O) petrol (Mumbai) with zero-depreciation, RTI and 24/7 roadside: Base Premium ₹26,500; Zero‑depreciation ₹5,200; RTI ₹2,800; Roadside ₹650; Total Premium ₹35,150. Standard compulsory deductible is ₹1,000; Cholamandalam MS has a wide Mumbai cashless garage network (including authorised Hyundai service centres) and a strong motor-claim settlement record to minimise surprises at claim time. Would you like me to proceed to bind this policy and send the payment link?",
+        "strategy": "Credibility",
+        "strategy_vector": {
+          "credibility": 0.9,
+          "emotional_appeal": 0.3,
+          "logical_argument": 0.7,
+          "personalization": 0.4
+        }
+      },
+      {
+        "turn_no": 9,
+        "speaker": "User",
+        "utterance": "Awesome — Premium ₹35,150 sounds great and I’m keen to lock this in for my new Creta! Could you please email me the full policy wording (including exclusions and the claims process) before I proceed?",
+        "intent": "Request additional info",
+        "intent_vector": {
+          "information_seeking": 0.9,
+          "price_sensitivity": 0.4,
+          "trust_level": 0.4,
+          "decision_readiness": 0.4,
+          "emotional_valence": 0.7
+        }
+      },
+      {
+        "turn_no": 10,
+        "speaker": "Agent",
+        "utterance": "Great — I’ll email the full policy wording (complete exclusions, step‑by‑step claims process, preferred Mumbai cashless garage list and the quote breakdown: Base ₹26,500; Zero‑dep ₹5,200; RTI ₹2,800; Roadside ₹650; Total ₹35,150) so you can review before deciding. Which email should I send this to? I’ll send it within 15 minutes and can then share the secure payment link or clarify anything you spot.",
+        "strategy": "Personal",
+        "strategy_vector": {
+          "credibility": 0.5,
+          "emotional_appeal": 0.6,
+          "logical_argument": 0.5,
+          "personalization": 0.9
+        }
+      },
+      {
+        "turn_no": 11,
+        "speaker": "User",
+        "utterance": "Fantastic — Premium ₹35,150 works for me; please send the complete policy document to ravi.patel@example.com, and could you confirm if there are any claim-time sub-limits, exclusions, or extra charges that might make me pay more than the ₹1,000 deductible?",
+        "intent": "Express Concern",
+        "intent_vector": {
+          "information_seeking": 0.6,
+          "price_sensitivity": 0.5,
+          "trust_level": 0.3,
+          "decision_readiness": 0.4,
+          "emotional_valence": 0.5
+        }
+      },
+      {
+        "turn_no": 12,
+        "speaker": "Agent",
+        "utterance": "I’ll send the full policy to ravi.patel@example.com now — it will include exclusions, the step‑by‑step claims process, Mumbai cashless garage list and the full ₹35,150 quote breakdown. Common items that can push your out‑of‑pocket above the ₹1,000 compulsory deductible are wear‑and‑tear or mechanical/electrical failures (typically excluded), tyres, unauthorised modifications, non‑OEM accessories or personal items that may have sub‑limits, and charges if you opt for a non‑cashless garage. Cholamandalam MS has a strong settlement record and I’ll flag any sub‑limits/exclusions in the email — shall I bind the policy and send the secure payment link after you review it?",
+        "strategy": "Default",
+        "strategy_vector": {
+          "credibility": 0.5,
+          "emotional_appeal": 0.4,
+          "logical_argument": 0.5,
+          "personalization": 0.5
+        }
+      },
+      {
+        "turn_no": 13,
+        "speaker": "User",
+        "utterance": "Amazing — Premium ₹35,150 sounds perfect, I’m excited to get this sealed for my Creta! Quick question: can you confirm whether tyres and batteries are covered (or have claim-time sub‑limits) under this policy that could push my out‑of‑pocket above the ₹1,000 deductible?",
+        "intent": "Request additional info",
+        "intent_vector": {
+          "information_seeking": 0.9,
+          "price_sensitivity": 0.4,
+          "trust_level": 0.4,
+          "decision_readiness": 0.4,
+          "emotional_valence": 0.7
+        }
+      },
+      {
+        "turn_no": 14,
+        "speaker": "Agent",
+        "utterance": "Short answer: tyres and batteries are treated as consumables and are usually excluded from zero‑depreciation; if they’re damaged in an insured accident Chola MS may cover them but often with depreciation or specific sub‑limits, so you can end up paying more than the ₹1,000 deductible. Practically, replacements can run several thousand rupees each (roughly ₹5,000–15,000 per tyre and ₹4,000–10,000 for a battery), so out‑of‑pocket costs can exceed ₹1,000. I’ll flag the exact exclusion/sub‑limit lines in the policy email—would you like me to add the optional tyre & battery cover to your quote?",
+        "strategy": "Logical",
+        "strategy_vector": {
+          "credibility": 0.6,
+          "emotional_appeal": 0.2,
+          "logical_argument": 0.9,
+          "personalization": 0.4
+        }
+      },
+      {
+        "turn_no": 15,
+        "speaker": "User",
+        "utterance": "I'm thrilled to seal this for my Creta and want the best hassle‑free protection. Premium ₹32,000 — would you be able to include zero‑depreciation and tyre & battery cover at that price?",
+        "intent": "Negotiate price",
+        "intent_vector": {
+          "information_seeking": 0.4,
+          "price_sensitivity": 0.9,
+          "trust_level": 0.4,
+          "decision_readiness": 0.7,
+          "emotional_valence": 0.6000000000000001
+        }
+      },
+      {
+        "turn_no": 16,
+        "speaker": "Agent",
+        "utterance": "Love the enthusiasm — I want this sealed hassle‑free for your Creta. At ₹32,000 we can’t include both zero‑depreciation and tyre & battery as standard: zero‑dep was ₹5,200 in your earlier quote and tyre & battery runs about ₹1,200–1,800, so both push the premium into the ~₹33,500–₹35,000 range. Would you like me to remove RTI (₹2,800) and roadside (₹650) to hit ₹32,000, or shall I seek approval for a ~₹3,000 top‑up to keep all add‑ons?",
+        "strategy": "Personal",
+        "strategy_vector": {
+          "credibility": 0.5,
+          "emotional_appeal": 0.6,
+          "logical_argument": 0.5,
+          "personalization": 0.9
+        }
+      },
+      {
+        "turn_no": 17,
+        "speaker": "User",
+        "utterance": "I’m all in for hassle‑free protection for my Creta and would prefer to keep zero‑depreciation plus tyre & battery cover. Can you please seek approval for Premium ₹35,000 so we can keep all add‑ons?",
+        "intent": "Request additional info",
+        "intent_vector": {
+          "information_seeking": 0.9,
+          "price_sensitivity": 0.4,
+          "trust_level": 0.4,
+          "decision_readiness": 0.4,
+          "emotional_valence": 0.7
+        }
+      },
+      {
+        "turn_no": 18,
+        "speaker": "Agent",
+        "utterance": "Fantastic — I’ll push for the ₹35,000 approval so you keep zero‑depreciation plus tyre & battery cover and drive with true hassle‑free protection for your family. Chola MS has a strong settlement record and we were only at ₹35,150 before, so this adjustment is realistic — I’ll negotiate the small gap and flag it as priority. Shall I proceed to seek approval and prepare the secure payment link for ₹35,000 now?",
+        "strategy": "Emotional",
+        "strategy_vector": {
+          "credibility": 0.4,
+          "emotional_appeal": 0.9,
+          "logical_argument": 0.3,
+          "personalization": 0.7
+        }
+      },
+      {
+        "turn_no": 19,
+        "speaker": "User",
+        "utterance": "Fantastic — I'm happy to proceed with Premium ₹35,000 for zero‑depreciation plus tyre & battery cover; please seek approval and send the secure payment link. How soon can I expect the payment link?",
+        "intent": "Request quote",
+        "intent_vector": {
+          "information_seeking": 0.7,
+          "price_sensitivity": 0.8,
+          "trust_level": 0.5,
+          "decision_readiness": 0.6,
+          "emotional_valence": 0.7
+        }
+      },
+      {
+        "turn_no": 20,
+        "speaker": "Agent",
+        "utterance": "Great — I’ll push the approval for the ₹35,000 policy right away and prepare the secure payment link. Typical turnaround after underwriting is 2–4 hours; if there’s any hold-up I’ll get it to you by end of the next business day and keep you updated. Shall I escalate now to aim for same‑day delivery?",
+        "strategy": "Logical",
+        "strategy_vector": {
+          "credibility": 0.6,
+          "emotional_appeal": 0.2,
+          "logical_argument": 0.9,
+          "personalization": 0.4
+        }
+      },
+      {
+        "turn_no": 21,
+        "speaker": "User",
+        "utterance": "Awesome — I’m thrilled to lock in Premium ₹35,000 for my Creta and really appreciate you sorting this out. At Premium ₹35,000, could you please detail exactly which covers and sub‑limits are included, along with the deductible and any notable exclusions?",
+        "intent": "Ask Coverage Details",
+        "intent_vector": {
+          "information_seeking": 0.9,
+          "price_sensitivity": 0.4,
+          "trust_level": 0.5,
+          "decision_readiness": 0.4,
+          "emotional_valence": 0.7
+        }
+      },
+      {
+        "turn_no": 22,
+        "speaker": "Agent",
+        "utterance": "Perfect — thanks for locking this in. At ₹35,000 you get a Chola MS comprehensive policy (third‑party liability + own‑damage up to your car’s IDV) with Zero‑Depreciation and Tyre & Battery add‑ons active, plus the standard owner‑driver personal accident cover. Practical details: own‑damage payouts are up to the IDV, zero‑dep waives part depreciation so replaced parts are paid at invoice rates, tyre & battery are covered up to replacement invoice subject to the add‑on’s item sub‑limit, and a compulsory deductible (typically ₹1,000) applies — I’ve left out any voluntary deductible to keep it hassle‑free. Notable exclusions: normal wear & tear, mechanical/electrical breakdowns not caused by an insured event, driving under influence/unlicensed driving, and un‑declared commercial use; I’ll fetch the exact rupee sub‑limits from underwriting and send the final policy wording with the payment link shortly.",
+        "strategy": "Personal",
+        "strategy_vector": {
+          "credibility": 0.5,
+          "emotional_appeal": 0.6,
+          "logical_argument": 0.5,
+          "personalization": 0.9
+        }
+      },
+      {
+        "turn_no": 23,
+        "speaker": "User",
+        "utterance": "Thrilled to lock in Premium ₹35,000 — thank you for getting this moving, but I want one clarification before I pay. Could you confirm the exact rupee sub-limits for the tyre and battery cover under this plan?",
+        "intent": "Express Concern",
+        "intent_vector": {
+          "information_seeking": 0.6,
+          "price_sensitivity": 0.5,
+          "trust_level": 0.3,
+          "decision_readiness": 0.4,
+          "emotional_valence": 0.5
+        }
+      },
+      {
+        "turn_no": 24,
+        "speaker": "Agent",
+        "utterance": "Great — typically Chola MS tyre cover pays replacement invoice up to about ₹6,000–₹12,000 per tyre (varies by tyre size) and battery cover is usually capped around ₹6,000–₹10,000. For your Premium ₹35,000 quote I still need underwriting’s final rupee caps and will send the exact sub‑limits in the policy wording. Shall I confirm those exact rupee sub‑limits now and hold the payment link until you approve the final wording?",
+        "strategy": "Default",
+        "strategy_vector": {
+          "credibility": 0.5,
+          "emotional_appeal": 0.4,
+          "logical_argument": 0.5,
+          "personalization": 0.5
+        }
+      },
+      {
+        "turn_no": 25,
+        "speaker": "User",
+        "utterance": "I’m thrilled to lock in Premium ₹35,000 for my Creta — could you confirm the exact tyre and battery sub‑limits in rupees for this plan and please pause sending the payment link until I review and sign off on the final policy wording?",
+        "intent": "Request additional info",
+        "intent_vector": {
+          "information_seeking": 0.9,
+          "price_sensitivity": 0.4,
+          "trust_level": 0.4,
+          "decision_readiness": 0.4,
+          "emotional_valence": 0.7
+        }
+      },
+      {
+        "turn_no": 26,
+        "speaker": "Agent",
+        "utterance": "Got it — I’ve paused the payment link and won’t send anything until you’ve reviewed and signed the final policy wording. I don’t yet have the underwriter’s final rupee caps, but for a Premium ₹35,000 Creta plan the typical ranges are tyre replacement ₹6,000–₹12,000 per tyre and battery cover ₹6,000–₹10,000; I’ll confirm the exact ₹ sub‑limits and include them in the final wording. Would you like me to push underwriting for same‑day confirmation?",
+        "strategy": "Personal",
+        "strategy_vector": {
+          "credibility": 0.5,
+          "emotional_appeal": 0.6,
+          "logical_argument": 0.5,
+          "personalization": 0.9
+        }
+      },
+      {
+        "turn_no": 27,
+        "speaker": "User",
+        "utterance": "Amazing — I’m thrilled to protect my Creta; can we do Premium ₹32,000 with the same Zero‑Dep and tyre/battery add‑ons, provided you confirm the exact ₹ sub‑limits before I sign?",
+        "intent": "Negotiate price",
+        "intent_vector": {
+          "information_seeking": 0.4,
+          "price_sensitivity": 0.9,
+          "trust_level": 0.4,
+          "decision_readiness": 0.7,
+          "emotional_valence": 0.6000000000000001
+        }
+      },
+      {
+        "turn_no": 28,
+        "speaker": "Agent",
+        "utterance": "Fantastic — love that you’re prioritising protection and peace of mind for your family. I can push for the Premium ₹32,000 plan with the same Zero‑Dep and tyre/battery add‑ons, but underwriting must confirm the exact tyre and battery sub‑limits in ₹ (they can be lower at a reduced premium) — I’ll hold the payment link until you’ve reviewed and signed the final wording. Shall I request same‑day underwriting confirmation for the ₹32,000 option now?",
+        "strategy": "Emotional",
+        "strategy_vector": {
+          "credibility": 0.4,
+          "emotional_appeal": 0.9,
+          "logical_argument": 0.3,
+          "personalization": 0.7
+        }
+      },
+      {
+        "turn_no": 29,
+        "speaker": "User",
+        "utterance": "Fantastic — I’m happy to take Premium ₹32,000 with Zero‑Dep and the tyre/battery add‑ons for my new Creta, I just need the precise ₹ sub‑limits before I sign. Could you please push underwriting to confirm those exact tyre and battery caps in ₹ today and then send me the final policy wording to review before you activate the payment link?",
+        "intent": "Request additional info",
+        "intent_vector": {
+          "information_seeking": 0.9,
+          "price_sensitivity": 0.4,
+          "trust_level": 0.4,
+          "decision_readiness": 0.4,
+          "emotional_valence": 0.7
+        }
+      },
+      {
+        "turn_no": 30,
+        "speaker": "Agent",
+        "utterance": "Perfect — I’ll push underwriting today to get the exact tyre and battery sub‑limits in ₹ and I won’t activate the payment link until you’ve reviewed and signed the final policy wording. For quick context, Creta owners on similar Premium plans usually see tyre caps around ₹6,000–₹12,000 per tyre and battery caps around ₹6,000–₹10,000 (many pick ~₹8,000 each). I’ll send the firm ₹ sub‑limits and the final wording as soon as underwriting confirms—expected today—and then wait for your sign‑off.",
+        "strategy": "Personal",
+        "strategy_vector": {
+          "credibility": 0.5,
+          "emotional_appeal": 0.6,
+          "logical_argument": 0.5,
+          "personalization": 0.9
+        }
+      },
+      {
+        "turn_no": 31,
+        "speaker": "User",
+        "utterance": "Amazing — I’m thrilled to take Premium ₹32,000 with Zero‑Dep and the tyre/battery add‑ons for my new Creta! Could you confirm exactly which coverages and major exclusions will be in the final policy wording (for example OEM parts, nationwide roadside assistance, engine/gearbox protection) and whether any caps apply beyond the tyre/battery sub‑limits?",
+        "intent": "Ask Coverage Details",
+        "intent_vector": {
+          "information_seeking": 0.9,
+          "price_sensitivity": 0.4,
+          "trust_level": 0.5,
+          "decision_readiness": 0.4,
+          "emotional_valence": 0.7
+        }
+      },
+      {
+        "turn_no": 32,
+        "speaker": "Agent",
+        "utterance": "Great — here’s what to expect in the final wording: comprehensive own‑damage + third‑party cover, Zero‑Dep add‑on (covers depreciation on replaced parts — OEM parts covered where specified), tyre and battery add‑ons (subject to underwriting sub‑limits in ₹), nationwide roadside assistance (usually included as an add‑on), and an optional engine/gearbox protection add‑on for sudden internal mechanical failures/hydrostatic loss if selected. Major exclusions: normal wear & tear, gradual mechanical/electrical failures (unless an add‑on covers them), damage from racing/intentional acts or driving under the influence, undeclared aftermarket accessories, and any items beyond declared rupee caps (e.g., tyres, battery, key replacement, towing or consumables) — exact ₹ caps and any other sub‑limits will be listed in the final policy wording. We back this with a 98%+ claim settlement record and a national network of garages; I’ll push underwriting today to confirm the precise tyre/battery caps in ₹ and send the final policy wording before activating the payment link.",
+        "strategy": "Credibility",
+        "strategy_vector": {
+          "credibility": 0.9,
+          "emotional_appeal": 0.3,
+          "logical_argument": 0.7,
+          "personalization": 0.4
+        }
+      },
+      {
+        "turn_no": 33,
+        "speaker": "User",
+        "utterance": "I'm thrilled to take Premium ₹32,000 with Zero‑Dep and the tyre/battery add‑ons but a bit anxious about any hidden ₹ caps elsewhere. Could underwriting confirm today that, apart from the tyre/battery rupee sub‑limits, there are no other monetary caps (for example key replacement, towing, consumables) before you send the final policy wording?",
+        "intent": "Express Concern",
+        "intent_vector": {
+          "information_seeking": 0.6,
+          "price_sensitivity": 0.5,
+          "trust_level": 0.3,
+          "decision_readiness": 0.4,
+          "emotional_valence": 0.5
+        }
+      },
+      {
+        "turn_no": 34,
+        "speaker": "Agent",
+        "utterance": "Great — I’ll push underwriting today and won’t activate the payment link until you’ve reviewed the final wording. For context, insurers commonly put modest rupee caps on extras like key replacement (typically around ₹5,000–₹15,000) and towing/consumables (often ₹1,000–₹3,000 or per‑event limits), but I’ll get a firm “no other monetary caps” confirmation or the exact ₹ caps in writing. We back this with a 98%+ claim settlement record and a national garage network—I’ll send the final policy wording as soon as underwriting confirms. Would you like me to ask underwriting to add an explicit clause stating “no other rupee sub‑limits apply” if they confirm that?",
+        "strategy": "Logical",
+        "strategy_vector": {
+          "credibility": 0.6,
+          "emotional_appeal": 0.2,
+          "logical_argument": 0.9,
+          "personalization": 0.4
+        }
+      },
+      {
+        "turn_no": 35,
+        "speaker": "User",
+        "utterance": "Awesome — I’m happy to go ahead with Premium ₹32,000, Zero‑Dep and the tyre/battery add‑ons for my Creta and just want absolute clarity on caps. Could you get underwriting to confirm in writing—inside the final policy wording—that apart from the tyre/battery rupee sub‑limits there won’t be any additional ₹ caps (or else list exact ₹ limits for key replacement, towing or consumables) before you send it for my sign‑off?",
+        "intent": "Request additional info",
+        "intent_vector": {
+          "information_seeking": 0.9,
+          "price_sensitivity": 0.4,
+          "trust_level": 0.4,
+          "decision_readiness": 0.4,
+          "emotional_valence": 0.7
+        }
+      }
+    ],
+    "year_summary": "User sought comprehensive insurance for their new 2025 Creta, prioritizing firm pricing and no surprises. They chose Zero‑Dep plus tyre & battery add‑ons (and had earlier considered RTI/roadside). Agent quoted ~₹35,150 but user negotiated to proceed at Premium ₹32,000. Outcome: agent will push underwriting today, pause the payment link, and send final policy wording confirming exact tyre/battery rupee sub‑limits and any other monetary caps for sign‑off.",
+    "timestamp": "2017-09-13T22:09:51",
+    "year": 2017,
+    "persona_id": "P_018"
+  }
+]

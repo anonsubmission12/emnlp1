@@ -88,60 +88,6 @@ DEFAULT_PERSONA_CONFIGS = [
     },
 ]
 
-# ============================================================
-# BIG FIVE BASE PROFILES (from dialogue_generator.py)
-# ============================================================
-BIG_FIVE_PROFILES = {
-    "budget-conscious": {
-        "openness": 0.4,
-        "conscientiousness": 0.7,
-        "extraversion": 0.5,
-        "agreeableness": 0.5,
-        "neuroticism": 0.6,
-    },
-    "detail-oriented": {
-        "openness": 0.6,
-        "conscientiousness": 0.9,
-        "extraversion": 0.4,
-        "agreeableness": 0.5,
-        "neuroticism": 0.5,
-    },
-    "skeptical": {
-        "openness": 0.5,
-        "conscientiousness": 0.7,
-        "extraversion": 0.4,
-        "agreeableness": 0.3,
-        "neuroticism": 0.6,
-    },
-    "enthusiastic": {
-        "openness": 0.8,
-        "conscientiousness": 0.5,
-        "extraversion": 0.9,
-        "agreeableness": 0.7,
-        "neuroticism": 0.3,
-    },
-    "cautious": {
-        "openness": 0.4,
-        "conscientiousness": 0.8,
-        "extraversion": 0.3,
-        "agreeableness": 0.6,
-        "neuroticism": 0.7,
-    },
-    "tech-savvy": {
-        "openness": 0.9,
-        "conscientiousness": 0.6,
-        "extraversion": 0.6,
-        "agreeableness": 0.5,
-        "neuroticism": 0.4,
-    },
-    "first-time buyer": {
-        "openness": 0.6,
-        "conscientiousness": 0.6,
-        "extraversion": 0.5,
-        "agreeableness": 0.7,
-        "neuroticism": 0.6,
-    },
-}
 
 
 # ============================================================

@@ -1,6 +1,7 @@
 import json
+import re
 from typing import Dict, List, Optional
-from openai_client import OpenAIClient
+from google import genai
 
 
 class ConversationJudge:
@@ -9,8 +10,9 @@ class ConversationJudge:
     Evaluates turn quality and suggests edge weight adjustments.
     """
     
-    def __init__(self, client: Optional[OpenAIClient] = None, model: str = "gemini-2.5-pro"):
-        self.client = client or OpenAIClient(model=model)
+    def __init__(self, model: str = "gemini-2.5-pro"):
+        self.client = genai.Client()
+        self.model = model
         self._qt_history = []
     
     def evaluate_turn(
@@ -75,7 +77,24 @@ Evaluate the agent's response and provide a JSON object with:
 }}"""
         
         try:
-            result, token_usage = self.client.judge_turn(prompt)
+            response = self.client.models.generate_content(
+                model=self.model,
+                contents=prompt,
+            )
+            
+            text = response.text
+            # Basic cleanup if there's markdown code block
+            text = re.sub(r'```(?:json)?', '', text).strip()
+            
+            result = json.loads(text)
+            
+            token_usage = {}
+            if hasattr(response, "usage_metadata") and response.usage_metadata:
+                token_usage = {
+                    "prompt_tokens": getattr(response.usage_metadata, "prompt_token_count", 0),
+                    "completion_tokens": getattr(response.usage_metadata, "candidates_token_count", 0),
+                    "total_tokens": getattr(response.usage_metadata, "total_token_count", 0)
+                }
             
             # Validate and normalize scores
             for key in ["coherence", "strategy_effectiveness", "intent_accuracy", "memory_relevance", "decision_readiness"]:

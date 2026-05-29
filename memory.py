@@ -184,7 +184,7 @@ class StrategyOutcomeMemory:
 
         # Optional banded update (paper Appendix C.2)
         if m_bar is not None:
-            alpha = 0.05
+            alpha = 0.03
             if m_bar > 0.8:
                 delta_t = +0.10
             elif m_bar > 0.6:

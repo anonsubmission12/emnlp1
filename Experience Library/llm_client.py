@@ -41,7 +41,7 @@ class InferenceLLMClient:
     def __init__(
         self,
         api_key: Optional[str] = None,
-        model: str = "gpt-4o-mini",
+        model: str = "gpt-5",
         temperature: float = 0.8,
         max_tokens: int = 400,
         load_vlm: bool = True,
